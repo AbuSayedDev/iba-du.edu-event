@@ -217,6 +217,14 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+.Successfully-content-area .event-right{
+    text-align: right;
+}
+
+.Successfully-content-area .event-right-right{
+    margin-top: 20px;
+}
+
 @media only screen and (max-width: 768px) {
     .content-area .heading-text h1 {
         font-size: 28px;
@@ -226,6 +234,9 @@ body{
     }
     .content-area .registration-details .deadline p, .content-area .registration-details .ticket p {
         font-size: 15px;
+    }
+    .Successfully-content-area .event-right{
+        text-align: center !important;
     }
   }
 
