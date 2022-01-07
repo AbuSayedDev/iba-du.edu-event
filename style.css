@@ -1,5 +1,4 @@
-
-body{
+body {
 
     font-size: 16px;
     font-weight: 400;
@@ -12,7 +11,7 @@ body{
     border: 1px solid #F4F5F6 !important;
 }
 
-.wrapper-area .cover-imag-area img{
+.wrapper-area .cover-imag-area img {
     width: 100%;
     height: 250px;
     object-fit: fill;
@@ -27,35 +26,37 @@ body{
 } */
 
 /* content-area */
-.content-area .heading-text h1{
+.content-area .heading-text h1 {
     color: #ED2323;
     font-size: 34px;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
 }
 
-.content-area .heading-text h3{
+.content-area .heading-text h3 {
     font-size: 25px;
     color: #003399;
     font-family: 'Poppins', sans-serif;
     line-height: 38px;
 }
-.content-area .heading-text p{
+
+.content-area .heading-text p {
     font-size: 16px;
     font-weight: 400;
     color: #000;
     font-family: 'Poppins', sans-serif;
     text-align: justify;
 }
+
 .content-area .event-details h2,
-.content-area .registration-details .heading h2{
+.content-area .registration-details .heading h2 {
     color: #ED2323;
     font-size: 24px;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
 }
 
-.content-area .event-details article span{
+.content-area .event-details article span {
     color: #000;
     font-size: 16px;
     font-weight: 500;
@@ -65,7 +66,7 @@ body{
 
 
 .content-area .registration-details .deadline h3,
-.content-area .registration-details .ticket h3{
+.content-area .registration-details .ticket h3 {
     color: #ED2323;
     font-size: 20px;
     font-weight: bold;
@@ -73,7 +74,7 @@ body{
 }
 
 .content-area .registration-details .deadline p,
-.content-area .registration-details .ticket p{
+.content-area .registration-details .ticket p {
     color: #000;
     font-size: 16px;
     font-weight: 500;
@@ -84,26 +85,27 @@ body{
 
 
 /* form-area */
-.form-area .card-title{
+.form-area .card-title {
     font-size: 34px;
     color: #003399;
     font-family: 'Poppins', sans-serif;
 }
-.form-area .form-area-subheading{
-    font-size: 16px;
+
+.form-area .form-area-subheading {
+    font-size: 19px;
     font-weight: 500;
     color: #000;
     font-family: 'Poppins', sans-serif;
 }
 
-.form-area .form-group label{
+.form-area .form-group label {
     font-size: 14px;
     font-weight: 500;
     color: #000;
     font-family: 'Poppins', sans-serif;
 }
 
-.form-area .form-group .form-control-file{
+.form-area .form-group .form-control-file {
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
     background-color: #fff;
@@ -111,28 +113,30 @@ body{
 }
 
 ::-webkit-input-placeholder {
-	color: #0000007a !important;
+    color: #0000007a !important;
     font-size: 13px;
-	transform: opacity .2s ease-in-out;
+    transform: opacity .2s ease-in-out;
     font-family: 'Poppins', sans-serif;
 }
+
 :focus::-webkit-input-placeholder {
-	color: #0000007a !important;
-	opacity:0.5s;
+    color: #0000007a !important;
+    opacity: 0.5s;
     font-size: 13px;
     font-family: 'Poppins', sans-serif;
 }
+
 .form-control:focus {
     color: #000;
     background-color: #fff;
     border-color: #00000030 !important;
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 0%) !important; 
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 0%) !important;
     font-family: 'Poppins', sans-serif;
 }
 
 
-.form-area .form-group .btn-primary{
+.form-area .form-group .btn-primary {
     color: #fff;
     background-color: #003399 !important;
     border-color: #003399 !important;
@@ -144,54 +148,57 @@ body{
 
 
 /* footer */
-.footer .heading h3{
+.footer .heading h3 {
     font-size: 30px;
     font-weight: 500;
     color: #000;
     font-family: 'Poppins', sans-serif;
 }
 
-.footer .heading img{
+.footer .heading img {
     width: 250px;
     height: auto;
-    
+
 }
 
 
 
 /* Successfully-content-area */
 
-.Successfully-content-area .heading-text h1{
+.Successfully-content-area .heading-text h1 {
     color: #ED2323;
     font-size: 55px;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
 }
-.Successfully-content-area .heading-text h3{
+
+.Successfully-content-area .heading-text h3 {
     font-size: 30px;
     color: #003399;
     font-family: 'Poppins', sans-serif;
 }
-.Successfully-content-area .heading-text p{
+
+.Successfully-content-area .heading-text p {
     font-size: 20px;
     color: #000;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 0px;
 }
-.Successfully-content-area .heading-text span{
+
+.Successfully-content-area .heading-text span {
     font-size: 16px;
     color: #000;
     font-family: 'Poppins', sans-serif;
 }
 
-.Successfully-content-area .registration-details .event-details h2{
+.Successfully-content-area .registration-details .event-details h2 {
     color: #ED2323;
     font-size: 20px;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
 }
 
-.Successfully-content-area .registration-details .event-details article span{
+.Successfully-content-area .registration-details .event-details article span {
     color: #000;
     font-size: 16px;
     font-weight: 500;
@@ -199,7 +206,7 @@ body{
     line-height: 30px;
 }
 
-.Successfully-content-area .registration-details .event-details h3{
+.Successfully-content-area .registration-details .event-details h3 {
     color: #ED2323;
     font-size: 14px;
     font-weight: bold;
@@ -207,7 +214,7 @@ body{
     line-height: 24px;
 }
 
-.Successfully-content-area .bt-area .btn{
+.Successfully-content-area .bt-area .btn {
     color: #fff;
     background-color: #003399 !important;
     border-color: #003399 !important;
@@ -218,120 +225,198 @@ body{
     margin: 7px;
 }
 
-.Successfully-content-area .event-right{
+.Successfully-content-area .event-right {
     text-align: right;
 }
 
-.Successfully-content-area .event-right-right{
+.Successfully-content-area .event-right-right {
     margin-top: 20px;
 }
 
-.Successfully-content-area .bt-area .print-btn{
+.Successfully-content-area .bt-area .print-btn {
     padding: 7px 58px !important;
 }
+
+
+
+/*countdown-timer*/
+
+#countdown-timer ul {
+    padding: 0;
+    margin: 0;
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#countdown-timer ul li {
+    background-color: #F4F5F6;
+    margin: 10px;
+    padding: 10px;
+}
+
+.timer {
+    margin-right: 10px;
+}
+
+#countdown-timer {
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+.bold-number {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    font-size: 42px !important;
+}
+
+.slim-countdown-text {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    font-size: 17px;
+}
+
+/*mobile*/
+
+
+@media only screen and (max-width: 1024px) {
+    .hide-words {
+        display: none;
+    }
+
+    .bold-number {
+        font-size: 30px !important;
+        text-align: center;
+        display: block;
+    }
+
+
+}
+
 
 
 @media only screen and (max-width: 768px) {
     .content-area .heading-text h1 {
         font-size: 28px;
     }
+
     .form-area .card-title {
         font-size: 28px;
     }
-    .content-area .registration-details .deadline p, .content-area .registration-details .ticket p {
+
+    .content-area .registration-details .deadline p,
+    .content-area .registration-details .ticket p {
         font-size: 15px;
     }
-    .Successfully-content-area .event-right{
+
+    .Successfully-content-area .event-right {
         text-align: center !important;
     }
-  }
+}
 
-  
+
 @media only screen and (max-width: 540px) {
     .wrapper-area .cover-imag-area img {
         height: 150px;
         object-fit: fill;
     }
-    .registration-details{
-        text-align: center;
-    }
+
+
     .Successfully-content-area .heading-text h1 {
         font-size: 38px;
     }
+
     .Successfully-content-area .heading-text h3 {
         font-size: 25px;
     }
+
     .Successfully-content-area .heading-text p {
         font-size: 16px;
     }
+
     .Successfully-content-area .heading-text span {
         font-size: 14px;
     }
-    .event-details{
+
+    .event-details {
         padding-top: 0px !important;
     }
+
     .Successfully-content-area .registration-details .event-details h3 {
         padding-top: 30px !important;
     }
+
     .Successfully-content-area .bt-area {
         padding-top: 0px !important;
     }
-  }
+}
 
-  @media only screen and (max-width: 411px) {
+@media only screen and (max-width: 411px) {
     .wrapper-area .cover-imag-area img {
         height: 110px;
         object-fit: fill;
     }
+
     .Successfully-content-area .heading-text h1 {
         font-size: 30px;
     }
+
     .Successfully-content-area .heading-text h3 {
         font-size: 20px;
     }
+
     .Successfully-content-area .heading-text p {
         font-size: 15px;
     }
+
     .Successfully-content-area .bt-area {
         padding-top: 0px !important;
     }
-    
-  }
 
-  @media only screen and (max-width: 360px) {
+}
+
+@media only screen and (max-width: 360px) {
     .Successfully-content-area .heading-text h1 {
         font-size: 25px;
     }
+
     .Successfully-content-area .heading-text h3 {
         font-size: 18px;
     }
-  }
+}
 
 
-  @media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) {
     .content-area .heading-text h1 {
         font-size: 25px;
     }
+
     .content-area .heading-text h3 {
         font-size: 22px;
     }
+
     .form-area .card-title {
         font-size: 24px;
     }
+
     .Successfully-content-area .heading-text h3 {
         font-size: 17px;
     }
+
     .Successfully-content-area .heading-text span {
         font-size: 11px;
     }
-  }
+}
 
-  
+
 @media print {
+
     .Successfully-content-area .bt-area,
     .footer {
         display: none;
     }
 
- }
- 
+}
