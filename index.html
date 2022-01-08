@@ -46,7 +46,7 @@
                                     <!-- <h1>IBA BBA SILVER JUBILEE</h1> -->
                                     <!-- <h3 class="pt-3">Hosted by 1st to 4th Batch of BBA </h3> -->
                                     <p class="pt-0">BBA 1st to 4th batch is hosting a day-long get-together of IBA-ites
-                                        from BBA 1st batch to BBA 25th batch to celebrate IBA BBA Silver Jubilee. You
+                                        from BBA 1st batch to BBA 25th batch to celebrate 25 Years of BBA. You
                                         are cordially requested to register for the event.</p>
                                 </div>
                                 <div class="event-details py-4">
@@ -96,13 +96,15 @@
 
 
                             <!-- countdown-timer -->
-                            <div id="countdown-timer" class="text-white">
+                            <div id="countdown-timer">
+
                                 <ul>
                                     <li><strong id="days" class="bold-number">1 </strong> <span class="slim-countdown-text">D<span class="hide-words">ays</span><span class="timer"></span></span></li>
                                     <li><strong id="hours" class="bold-number"> 24 </strong> <span class="slim-countdown-text">H<span class="hide-words">ours</span><span class="timer"></span></span> </li>
                                     <li><strong id="mins" class="bold-number"> 60 </strong> <span class="slim-countdown-text">M<span class="hide-words">inutes</span><span class="timer"></span></span></li>
                                     <li><strong id="seconds" class="bold-number"> 60 </strong> <span class="slim-countdown-text">S<span class="hide-words">econds</span></span><span class="timer"></span></span></li>
                                 </ul>
+                                <h5>. . . to Registration Deadline</h5>
                             </div>
                         </div>
 
@@ -151,7 +153,7 @@
                                             <div class="form-group">
                                                 <label for="cellPhone">Cell Phone <span
                                                         style="color: red;">*</span></label>
-                                                <input type="email" class="form-control" id="cellPhone" name="cellPhone"
+                                                <input type="number" class="form-control" id="cellPhone" name="cellPhone"
                                                     placeholder="Your Active Cell Phone Number" required>
                                                 <small id="cellPhone" class="form-text text-muted">(SMS reminders will
                                                     be sent to this number)</small>
@@ -271,7 +273,7 @@ const hoursEl = document.getElementById('hours');
 const minsEL = document.getElementById('mins');
 const secondsEL = document.getElementById('seconds');
 
-const newYears = '18 january 2022';
+const newYears = '19 january 2022';
 
 function countdown() {
     const newYearsDate = new Date(newYears);
