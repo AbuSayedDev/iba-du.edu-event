@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#box {
+    position: relative;
+    width: 750px;
+    height: auto;
+    overflow: hidden;
+    /* background-color: #ccc; */
+    padding: 100px 1px 10px;
+    margin: auto;
+}
+
+#list {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#list div {
+    width: 150px;
+    height: 150px;
+    background: radial-gradient(circle at 25% 25%, white, orange 45%, rgb(131, 72, 0), orange 96%);
+    border-radius: 30px;
+    font-size: 55px;
+    font-weight: 900;
+    margin: 0 10px;
+    position: absolute;
+    left: 900px;
+    box-shadow: 0px 10px 10px 0px rgb(0 0 0 / 30%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* #list div:last-child {
+    background: radial-gradient(circle at 25% 25%, white, red 45%, rgb(131, 72, 0), red 96%);
+} */
+
+#list div p {
+    text-align: center;
+    line-height: 60px;
+}
+
+/* #list div:last-child {
+    color: white;
+} */
+
+.move {
+    transition: 1.5s;
+}
+
+.roll1 {
+    transform: rotate(-2160deg);
+    transition: 1.5s;
+}
+
+.roll2 {
+    transform: rotate(-1800deg);
+    transition: 1.5s;
+}
+
+.roll3 {
+    transform: rotate(-1440deg);
+    transition: 1.5s;
+}
+
+.roll4 {
+    transform: rotate(-1080deg);
+    transition: 1.5s;
+}
+
+
+.green {
+    background: radial-gradient(at 30% 25%, white 5%, darkgreen, green 60%, darkgreen 80%);
+}
+
+.red {
+    background: radial-gradient(at 30% 25%, white 5%, darkred, red 60%, darkred 80%);
+}
+
+.p-e-n {
+    pointer-events: none;
+}
+
+
+/* raffledraw-btnarea */
+
+.raffledraw-btnarea{
+    padding-top: 150px;
+}
+.custom-raffledraw-btn{
+    color: #fff;
+    background-color: #e74f28 !important;
+    border-color: #e74f28 !important;
+    padding: 3px 40px !important;
+    font-size: 27px !important;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.custom-raffledrawview-btn{
+    color: #fff;
+    background-color: #e74f28 !important;
+    border-color: #e74f28 !important;
+    padding: 5px 40px !important;
+}
+
+.btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle {
+    color: #fff;
+    background-color: #e74f28 !important;
+    border-color: #e74f28 !important;
+}
+
+.btn-success.focus, .btn-success:focus {
+    box-shadow: 0 0 0 0.2rem rgb(231 79 40);
+}
